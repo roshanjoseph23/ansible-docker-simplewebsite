@@ -29,7 +29,9 @@ A simple website using ansible and docker on Ubuntu EC2
 >volumes:
 
 >-/var/www/html/roshanjoseph.tk/:/usr/local/apache2/htdocs/
+
 >-/home/ubuntu/roshanjosephtk.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
+
 >-/home/ubuntu/httpd.conf:/usr/local/apache2/conf/httpd.conf
 
  - Extracts the website to `/var/www/html/roshanjoseph.tk/` in the Host EC2 and mounted as volume to docker  in `/usr/local/apache2/htdocs/`
