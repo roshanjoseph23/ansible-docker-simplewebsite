@@ -11,7 +11,7 @@
         name: "{{ item }}"
         state: latest 
         update_cache: yes
-      loop: 
+      with_items: 
         - apt-transport-https
         - ca-certificates
         - curl
