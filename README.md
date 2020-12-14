@@ -27,6 +27,7 @@ A simple website using ansible and docker on Ubuntu EC2
  - Host port used is `80` and Container port used is `80`
 ---------------------------------------------------------------------
 >volumes:
+
 >-/var/www/html/roshanjoseph.tk/:/usr/local/apache2/htdocs/
 >-/home/ubuntu/roshanjosephtk.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
 >-/home/ubuntu/httpd.conf:/usr/local/apache2/conf/httpd.conf
