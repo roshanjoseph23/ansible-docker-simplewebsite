@@ -14,12 +14,14 @@ A simple website using ansible and docker on Ubuntu EC2
 ## Tasks
 
 > container_image: httpd:latest
+
 > container_name: docker
 
  - Uses docker container image `httpd:latest` for apache
  - Container name is `docker`
 ---------------------------------------------------------------------
 > ports:
+
 > -"80:80"
 
  - Host port used is `80` and Container port used is `80`
